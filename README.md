@@ -37,8 +37,7 @@ The system allows users to input borrower details and receive:
 
 ### Model Comparison
 
-![Model Comparison](https://raw.githubusercontent.com/ogunsolaolalekanoo-dev/loan-default-ml-system/main/assets/model_comparison.png)
-
+![Model Comparison](https://raw.githubusercontent.com/ogunsolaolalekanoo-dev/loan-default-ml-system/main/reports/assets/model_comparison.png)
 *Figure 3: Performance comparison across models using ROC-AUC and F1-score.*
 
 ---
