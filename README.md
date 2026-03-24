@@ -1,6 +1,4 @@
-# 💳 Loan Default Prediction System (End-to-End ML + Deployment)
-
-## 🚀 Overview
+## Overview
 
 This project is a **production-ready machine learning system** for predicting loan default risk. It goes beyond traditional modeling by integrating:
 
@@ -19,9 +17,9 @@ The system allows users to input borrower details and receive:
 
 ---
 
-## 📸 Project Visuals
+## Project Visuals
 
-### 🔹 Interactive Dashboard
+###  Interactive Dashboard
 
 ![Dashboard](assets/dashboard.png)
 
@@ -29,7 +27,7 @@ The system allows users to input borrower details and receive:
 
 ---
 
-### 🔹 MLflow Experiment Tracking
+### MLflow Experiment Tracking
 
 ![MLflow](assets/mlflow.png)
 
@@ -37,7 +35,7 @@ The system allows users to input borrower details and receive:
 
 ---
 
-### 🔹 Model Comparison
+### Model Comparison
 
 ![Model Comparison](assets/model_comparison.png)
 
@@ -45,7 +43,7 @@ The system allows users to input borrower details and receive:
 
 ---
 
-## 🧠 Problem Statement
+## Problem Statement
 
 Financial institutions need robust tools to identify high-risk borrowers and reduce loan default losses.
 
@@ -57,7 +55,7 @@ This system provides a **data-driven decision support tool** that:
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 * **Python**
 * **Pandas, NumPy**
@@ -70,9 +68,9 @@ This system provides a **data-driven decision support tool** that:
 
 ---
 
-## 📊 Key Features
+## Key Features
 
-### 🔹 1. Data Pipeline
+###  1. Data Pipeline
 
 * Data cleaning and preprocessing
 * Feature engineering
@@ -80,7 +78,7 @@ This system provides a **data-driven decision support tool** that:
 
 ---
 
-### 🔹 2. Exploratory Data Analysis (EDA)
+### 2. Exploratory Data Analysis (EDA)
 
 * Target distribution analysis
 * Feature distributions
@@ -90,7 +88,7 @@ This system provides a **data-driven decision support tool** that:
 
 ---
 
-### 🔹 3. Model Development
+###  3. Model Development
 
 Models trained and compared:
 
@@ -107,14 +105,14 @@ Models trained and compared:
 
 ---
 
-### 🔹 4. Handling Class Imbalance
+### 4. Handling Class Imbalance
 
 * SMOTE (Synthetic Minority Oversampling Technique)
 * Improved recall from ~0.03 → ~0.69
 
 ---
 
-### 🔹 5. Threshold Optimization
+### 5. Threshold Optimization
 
 * Dynamic threshold tuning (0.1 → 0.85)
 * Enables business-specific decision strategies:
@@ -127,7 +125,7 @@ Models trained and compared:
 
 ---
 
-### 🔹 6. MLflow Integration
+### 6. MLflow Integration
 
 * Experiment tracking
 * Metric logging (ROC-AUC, Precision, Recall, F1)
@@ -136,7 +134,7 @@ Models trained and compared:
 
 ---
 
-### 🔹 7. API Deployment (FastAPI)
+### 7. API Deployment (FastAPI)
 
 Real-time prediction endpoint:
 
@@ -178,30 +176,30 @@ POST /predict
 
 ---
 
-### 🔹 8. Interactive Dashboard (Streamlit)
+### 8. Interactive Dashboard (Streamlit)
 
 * User-friendly interface
 * Real-time predictions
 * Probability score visualization
-* 🔥 Adjustable threshold slider
+* Adjustable threshold slider
 * Business-friendly output (High Risk / Low Risk)
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 | Model               | ROC-AUC | Recall       | Precision        |
 | ------------------- | ------- | ------------ | ---------------- |
 | Logistic Regression | ~0.75   | ~0.69        | ~0.22            |
 | XGBoost             | ~0.75   | Lower recall | Higher precision |
 
-### 🔥 Key Insight:
+### Key Insight:
 
 > Handling class imbalance significantly improved model performance and real-world usability.
 
 ---
 
-## 💡 Business Insights
+## Business Insights
 
 * Lower credit scores strongly correlate with default risk
 * Higher debt-to-income ratios increase default probability
@@ -210,7 +208,7 @@ POST /predict
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 Streamlit UI → FastAPI → MLflow Model → Prediction
@@ -218,7 +216,7 @@ Streamlit UI → FastAPI → MLflow Model → Prediction
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1. Start FastAPI Backend
 
@@ -235,7 +233,7 @@ streamlit run A1-loan-default-pipeline/src/dashboard/app.py
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 
 * Handling imbalanced datasets is critical in real-world ML
 * Model evaluation must align with business goals
@@ -245,7 +243,7 @@ streamlit run A1-loan-default-pipeline/src/dashboard/app.py
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * SHAP explainability for model transparency
 * Docker containerization
@@ -254,11 +252,3 @@ streamlit run A1-loan-default-pipeline/src/dashboard/app.py
 
 ---
 
-## 👨‍💻 Author
-
-**Olalekan Ogunsola**
-MS Business Analytics (AI) | Data Science | Machine Learning
-
----
-
-## ⭐ If you found this useful, give it a star!
